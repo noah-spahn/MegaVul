@@ -38,7 +38,7 @@ functions.
 The differences between the three versions are as follows:
 
 - `cve_with_graph_abstract_commit.json` Raw dataset with complete hierarchical structure. It includes information
-  such as CVE, Commit, :wqFile, Functions, etc.
+  such as CVE, Commit, File, Functions, etc.
 - `megavul.json` is a version of `cve_with_graph_abstract_commit` after flattened, for easier use. Keep all
   fields but losing the hierarchical structure.
 - `megavul_simple.json` is a simple version of `megavul.json`, designed to provide a more concise representation of the
