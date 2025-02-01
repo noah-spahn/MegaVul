@@ -37,13 +37,12 @@ functions.
 
 The differences between the three versions are as follows:
 
-- `cve_with_graph_abstract_commit.json` Raw dataset with complete hierarchical structure. It includes information
-  such as CVE, Commit, File, Functions, etc.
+- `cve_with_graph_abstract_commit.json` Raw dataset with complete hierarchical structure. 
+   It includes CVE, Commit, File, Functions, etc.
 - `megavul.json` is a version of `cve_with_graph_abstract_commit` after flattened, for easier use. Keep all
   fields but losing the hierarchical structure.
-- `megavul_simple.json` is a simple version of `megavul.json`, designed to provide a more concise representation of the
-  dataset. It retains essential fields such as Functions and CVE IDs while omitting detail information like function parameter
-  lists and commit message.
+- `megavul_simple.json` is a simple version of `megavul.json`, designed to provide a more concise dataset representation. 
+   It retains essential fields such as Functions and CVE IDs while omitting detailed information like function parameter lists and commit messages.
 
 The **megavul_graph.zip** provides Joern graphs for all functions in the **MegaVul**, including node and edge information. (Mostly
 used for **graph-based** vulnerability detect neural networks)
@@ -58,7 +57,7 @@ It is provided separately to save bandwidth and storage space (unzipping require
 
 ### ⏩ Simple UseCase
 
-Refer [specification](#dataset-specification) for more information about the **fields** in the dataset.
+Refer to the [specification](#dataset-specification) for more information about the **fields** in the dataset.
 
 More code examples can be found in the **`examples`** folder.
 
